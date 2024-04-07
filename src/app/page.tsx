@@ -1,28 +1,26 @@
 import React from "react";
-import SidebarLeft from "./components/molecules/Sidebar/SidebarLeft";
+import SidebarRight from "./components/molecules/Sidebar/SidebarRight"; 
+import SocialLink from "./components/atoms/SocialLink"; 
+import { FaGithub, FaInstagram } from 'react-icons/fa';
 
 const Page = () => {
-  const sidebarData = {
-    name: "Daniela V.",
-    role: "Full stack",
-    age: 25,
-    residence: "Medellín",
-    email: "daniela.vasquezl1@udea.edu.co",
-    nationality: "Colombiana",
-    languages: [
-      { label: "Inglés", level: 80 },
-      { label: "Español", level: 100 },
-    ],
-    programming: [
-      { label: "JavaScript", level: 90 },
-      { label: "Python", level: 70 },
-    ],
-    skills: [{ label: "Habilidad 1" }, { label: "Habilidad 2" }],
+  const sidebarLinks = [
+    { url: "https://github.com", icon: FaGithub },
+    { url: "https://instagram.com", icon: FaInstagram },
+  ];
+
+  const linkStyles = {
+    color: "black", 
   };
 
   return (
     <div>
-      <SidebarLeft {...sidebarData} />
+      <SidebarRight links={sidebarLinks} />
+      <div>
+        {sidebarLinks.map((link, index) => (
+          <SocialLink key={index} url={link.url} icon={link.icon} />
+        ))}
+      </div>
     </div>
   );
 };
