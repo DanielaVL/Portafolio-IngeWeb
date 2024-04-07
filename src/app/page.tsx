@@ -1,20 +1,30 @@
-import React from 'react';
-import InfoItem from './components/organisms/InfoItem';
-import SkillBadge from './components/atoms/SkillIcon';
-import SkillBar from './components/atoms/SkillBar';
+import React from "react";
+import SidebarLeft from "./components/molecules/Sidebar/SidebarLeft";
 
-const Home = () => {
+const Page = () => {
+  const sidebarData = {
+    name: "Daniela V.",
+    role: "Full stack",
+    age: 25,
+    residence: "Medellín",
+    email: "daniela.vasquezl1@udea.edu.co",
+    nationality: "Colombiana",
+    languages: [
+      { label: "Inglés", level: 80 },
+      { label: "Español", level: 100 },
+    ],
+    programming: [
+      { label: "JavaScript", level: 90 },
+      { label: "Python", level: 70 },
+    ],
+    skills: [{ label: "Habilidad 1" }, { label: "Habilidad 2" }],
+  };
+
   return (
     <div>
-      <h1>Información</h1>
-      <InfoItem label="Edad" value="25 años" />
-      <InfoItem label="Ubicación" value="Ciudad" />
-      
-      <h1>Habilidades</h1>
-      <SkillBadge label="React" />
-      <SkillBar label="JavaScript" level={80} />
+      <SidebarLeft {...sidebarData} />
     </div>
   );
 };
 
-export default Home;
+export default Page;
