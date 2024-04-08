@@ -1,8 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portafolio de Daniela Vásquez
 
-## Getting Started
+Este es un proyecto desarrollado como parte del curso de [nombre del curso]. El objetivo de este proyecto es crear un portafolio personal utilizando tecnologías como Next.js, React, TailwindCSS y TypeScript. El portafolio debe seguir un diseño proporcionado en Figma y cumplir con los siguientes requisitos:
 
-First, run the development server:
+## Objetivo
+1. Interiorizar el proceso de desarrollo web frontend usando NextJS, React, TailwindCSS y TypeScript.
+2. Interiorizar el proceso de maquetado en React a partir de un diseño en Figma.
+3. Entender el flujo de trabajo con Git y el despliegue del proyecto en Vercel.
+
+## Requisitos del proyecto
+- Implementar su propia hoja de vida basada en el diseño de Figma.
+- Utilizar NextJS, TailwindCSS, TypeScript e iconos.
+- El proyecto debe contener las siguientes secciones:
+  - Información personal
+  - Datos de contacto
+  - Idiomas
+  - Lenguajes de programación
+  - Habilidades extra
+  - Perfil
+  - Conocimientos
+  - Educación
+  - Portafolio
+  - Footer
+- Desplegar el proyecto en Vercel.
+
+## Empezando
+Para iniciar el proyecto en modo de desarrollo, ejecuta el siguiente comando:
 
 ```bash
 npm run dev
@@ -14,23 +36,22 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Una vez ejecutado el comando, abre http://localhost:3000 en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Puede comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que edita el archivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
 
-## Learn More
+## Aplicación en Vercel
 
-To learn more about Next.js, take a look at the following resources:
+La forma más sencilla de implementar su aplicación Next.js es utilizar la [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) de los creadores de Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Consulte nuestra [documentación de implementación de Next.js](https://nextjs.org/docs/deployment) para obtener más detalles.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# [Puede acceder a la aplicación desplegada en Vercel haciendo clic aquí.](https://portafolio-daniela-vasquez.vercel.app/)
 
-## Deploy on Vercel
+# Estructura del Proyecto
+El proyecto está organizado de acuerdo a los principios de Atomic Design, con componentes reutilizables que se encuentran en las carpetas correspondientes.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Colaboración y Contribuciones
+Siéntete libre de colaborar con este proyecto realizando contribuciones o proporcionando retroalimentación. [¡Toda contribución es bienvenida!](https://github.com/Ingenieria-Web-M-J/daniela-vasquez-londono-portafolio)
