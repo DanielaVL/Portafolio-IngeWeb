@@ -51,26 +51,26 @@ const MainContent = ({
   return (
     <div className="w-4/5">
       <div className="banner rounded-lg flex bg-white">
-        <div className="banner-text w-3/4 mt-28 ml-11 mr-5">
+        <div className="banner-text w-3/4 mt-20 ml-11 mr-5">
           <h1 className="text-5xl font-bold">
             <p>Soy {name}</p>
             <p className="text-customPurple mt-2">{role}</p>
           </h1>
-          <p className="text-lg mt-6 mr-80 text-gray-600">
+          <p className="text-lg mt-6 mr-90 text-gray-600">
             {profileDescription}
           </p>
-          <Button label="Contratar" />
+          <Button label="Contratar"/>
         </div>
-        <div className="w-1/4 mt-20 mr-12">
+        <div className="w-1/4 mt-28 mr-12">
           <img
-            src="./images/my-photo-full.jpg"
-            alt="Mi Foto"
+            src="../../../../images/foto-full.jpg"
+            alt="Mi foto"
             className="object-cover w-auto h-auto"
           />
         </div>
       </div>
       <div className="text-center mt-10">
-        <h2 className="text-4xl font-bold">Mis Conocimientos</h2>
+        <h2 className="text-4xl font-bold">Mis conocimientos</h2>
         <p className="text-lg mt-3 mb-10 ml-40 mr-40 text-gray-600 ">
           {knowledgeDescription}
         </p>

@@ -35,21 +35,23 @@ const CalculatorDialog = ({
         className="text-customPurple text-center"
         style={{ fontWeight: "bold", fontSize: "3.75rem", lineHeight: "1" }}
       >
-        Calculator
+        Calculadora EasyMath
       </DialogTitle>
       <DialogContent>
         <div className="flex justify-between text-lg mx-auto items-center">
           <span className="">
-            Calculadora creada en el curso de ingeniería web.
+          Este proyecto es una calculadora web que permite realizar operaciones básicas como suma, resta, 
+          multiplicación y división. Ya no hay excusas para aprender matemáticas de una manera muy divertida. 
+          ¡Inténtalo y disfruta!
           </span>
           <img
-            src="./images/pruebaImagen.jpg"
-            alt="GIF"
+            src="../../../../images/calculadora.jpg"
+            alt="Imagen"
             className="w-80 mx-auto"
           />
         </div>
         <a
-          href="https://github.com"
+          href="https://github.comhttps://github.com/Ingenieria-Web-M-J/taller-html-daniela-vasquez-londono"
           target="_blank"
           rel="noopener noreferrer"
         >

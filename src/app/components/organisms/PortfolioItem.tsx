@@ -1,7 +1,8 @@
+'use client'
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { useState } from "react";
-import CalculatorDialog from "../molecules/Dialogs/Calculator";
+import CalculatorDialog from "../molecules/Dialogs/CalculatorDialog";
 
 interface PortfolioItemProps {
   title: string;

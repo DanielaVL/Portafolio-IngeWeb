@@ -32,21 +32,18 @@ const HireMeDialog = ({ open, setHireMeDialogOpen }: HireMeDialogProps) => {
         className="text-center"
         style={{ fontWeight: "bold", fontSize: "3rem", lineHeight: "1" }}
       >
-        ¿En serio me quieres contratar?
+        ¡Wow! Gracias por tu interés.
       </DialogTitle>
       <DialogContent>
-        <div className="w-96 mx-auto">
-          <img src="./images/wendy.gif" alt="GIF" className="mx-auto" />
-        </div>
         <div className="text-2xl text-customPurpleLight py-5">
           <a
-            href="https://wa.me/573044278880"
+            href="https://wa.me/573206100477"
             target="_blank"
             rel="noopener noreferrer"
           >
             <span className="flex items-center justify-center">
               <FaWhatsapp></FaWhatsapp>
-              <span className="pl-2">Siiii, hablemos</span>
+              <span className="pl-2">¡Hablemos!</span>
             </span>
           </a>
         </div>

@@ -10,7 +10,7 @@ interface InfoItemProps {
 const InfoItem = ({ index, label, value }: InfoItemProps) => {
   return (
     <div className="flex justify-between items-center">
-      <span className={index === "edu" ? "text-lg" : ""}>{label}</span>
+      <span className={`font-bold ${index === "edu" ? "text-lg" : ""}`}>{label}</span>
       <span
         className={
           index === "edu"

@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import HireMeDialog from "../molecules/Dialogs/HireMeDialog";
 import { FaArrowRight } from "react-icons/fa";
@@ -18,6 +19,7 @@ const Button = ({ label }: ButtonProps) => {
     <button
       className="relative bg-customPurple mt-6 hover:bg-customPurpleLight text-white font-thin h-14 w-56 rounded text-2xl focus:outline-none focus:shadow-outline hover:scale-105 transition-transform duration-300 ease-in-out"
       onClickCapture={handleHireMeClick}
+      style={{ backgroundColor: '#6a0dad' }}
     >
       <HireMeDialog
         open={HireMeDialogOpen}
