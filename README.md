@@ -48,7 +48,7 @@ La forma más sencilla de implementar su aplicación Next.js es utilizar la [Pla
 
 Consulte nuestra [documentación de implementación de Next.js](https://nextjs.org/docs/deployment) para obtener más detalles.
 
-# [Puede acceder a la aplicación desplegada en Vercel haciendo clic aquí.](https://portafolio-daniela-vasquez.vercel.app/)
+[Puede acceder a la aplicación desplegada en Vercel haciendo clic aquí.](https://portafolio-daniela-vasquez.vercel.app/)
 
 # Estructura del Proyecto
 El proyecto está organizado de acuerdo a los principios de Atomic Design, con componentes reutilizables que se encuentran en las carpetas correspondientes.
