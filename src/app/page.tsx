@@ -1,3 +1,5 @@
+// Componente principal de la aplicación, que representa la página principal del sitio web
+
 import React from "react";
 import Head from "next/head";
 import SidebarLeft from "./components/molecules/Sidebar/SidebarLeft";
