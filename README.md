@@ -50,8 +50,8 @@ Consulte nuestra [documentación de implementación de Next.js](https://nextjs.o
 
 [Puede acceder a la aplicación desplegada en Vercel haciendo clic aquí.](https://portafolio-daniela-vasquez.vercel.app/)
 
-# Estructura del Proyecto
+## Estructura del Proyecto
 El proyecto está organizado de acuerdo a los principios de Atomic Design, con componentes reutilizables que se encuentran en las carpetas correspondientes.
 
-# Colaboración y Contribuciones
+## Colaboración y Contribuciones
 Siéntete libre de colaborar con este proyecto realizando contribuciones o proporcionando retroalimentación. [¡Toda contribución es bienvenida!](https://github.com/Ingenieria-Web-M-J/daniela-vasquez-londono-portafolio)
