@@ -23,7 +23,7 @@ Este es un proyecto desarrollado como parte del curso de [nombre del curso]. El 
   - Footer
 - Desplegar el proyecto en Vercel.
 
-## Empezando
+## Ejecución
 Para iniciar el proyecto en modo de desarrollo, ejecuta el siguiente comando:
 
 ```bash
@@ -41,6 +41,9 @@ Una vez ejecutado el comando, abre http://localhost:3000 en tu navegador para ve
 Puede comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que edita el archivo.
 
 Este proyecto utiliza [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
+
+> [!IMPORTANTE]
+> En la herramienta de inspección, configura el tamaño a 1920 x 1080 para garantizar que la aplicación se adapte correctamente a la página y evitar que los elementos se superpongan.
 
 ## Aplicación en Vercel
 
